@@ -48,20 +48,18 @@ margin: 0 auto;
 ul li{
 list-style: none;
 }
-@media screen and (max-width: 1330px max-height:1700px;){
-    .ex .par{
-width: 20%;
-font-size: 1.9em;
-.ex{
-    display: flex;
-    justify-content: space-between;
+@media  (max-width: 1300px){
+    .click {
+            width: 90%;
+        }
+        .click h1{
+            font-size:0.9em;
+   } 
+
+.click .b .abo{
+    width: 90%;
+    font-size:0.9em;
 }
-.par{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-    }
 }
 h3{
     padding: 10px 0;
