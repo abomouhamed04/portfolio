@@ -206,23 +206,10 @@ a:focus {
     background:red;
     height: 300px;
     margin: 1% 0 0 0 ;
-    rotate 1s; 
-    animation: from 1s ease alternate-reverse infinite;
-}
-@keyframes from{
-    from {
-        transform: scale(1);
-    }
-    /* to{
-        transform: scale(1.2);
-    } */
 }
 
 .triangle:hover {
     background-color: #FAFAFA;
-    width: 30%;
-    height: 300px;
-  /* rotate: 180deg; */
 }
 
 .prt{
