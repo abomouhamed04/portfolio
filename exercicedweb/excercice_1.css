@@ -48,10 +48,23 @@ margin: 0 auto;
 ul li{
 list-style: none;
 }
-@media  (max-width: 1447px; max-height:1700px;){
+
+@media  (max-width: 1477px;max-height:1780px;){
     .ex .par{
 width: 90%;
 font-size: 1.9em;
+.ex{
+    display: flex;
+    justify-content: space-between;
+}
+.par{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+    }
+}
 h3{
     padding: 10px 0;
 }
