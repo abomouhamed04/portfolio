@@ -48,6 +48,9 @@ margin: 0 auto;
 ul li{
 list-style: none;
 }
+@media screen and (max-width: 110px){
+    .ex .par{
+width: 20%;
 .ex{
     display: flex;
     justify-content: space-between;
@@ -56,6 +59,8 @@ list-style: none;
     display: flex;
     flex-direction: column;
     gap: 20px;
+}
+    }
 }
 h3{
     padding: 10px 0;
