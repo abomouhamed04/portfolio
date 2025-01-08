@@ -48,7 +48,7 @@ margin: 0 auto;
 ul li{
 list-style: none;
 }
-@media screen and (max-width: 110px){
+@media screen and (max-width: 1330px){
     .ex .par{
 width: 20%;
 .ex{
