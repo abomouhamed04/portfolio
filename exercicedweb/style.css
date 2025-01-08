@@ -14,6 +14,20 @@ body{
     align-items:center;
     justify-content: center;
 }
+@media screen and (max-width: 1410px){
+    .click {
+width: 70%;
+margin: auto ;
+   .click h1{
+    width:90%;
+    font-size: 4px;
+   } 
+}
+.click .b{
+    width:90%;
+    margin: auto;
+}
+}
 .click{
     border-radius: 30px; 
     background: black;
