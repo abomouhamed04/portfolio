@@ -48,9 +48,10 @@ margin: 0 auto;
 ul li{
 list-style: none;
 }
-@media screen and (max-width: 1330px){
+@media screen and (max-width: 1330px max-height:1700px;){
     .ex .par{
 width: 20%;
+font-size: 1.9em;
 .ex{
     display: flex;
     justify-content: space-between;
