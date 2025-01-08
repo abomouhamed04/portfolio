@@ -14,18 +14,19 @@ body{
     align-items:center;
     justify-content: center;
 }
-@media screen and (max-width: 1410px){
+
+@media screen and (max-width: 1300px){
     .click {
-width: 70%;
+width: 100%;
 margin: auto ;
    .click h1{
-    width:90%;
-    font-size: 4px;
+    width: 10px;
+    font-size:1% ;
    } 
 }
-.click .b{
-    width:90%;
-    margin: auto;
+.click .b .abo{
+    width:100%;
+
 }
 }
 .click{
