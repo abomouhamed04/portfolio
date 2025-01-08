@@ -66,5 +66,15 @@
                 <h2>Telephone:<span style="margin: 5.5em;color:#f6041c;">773223423</span></h2>
             </div>
     </section>
+        <script>
+        document.addEventListener("DOMContentLoaded", function(){  //Apres chargement page bi bouder compo ko
+            const toggler = document.querySelector(".navbar-toggler"); //Boutton pour menu bi 
+            const navMenu = document.querySelector("nav ul"); //pour recuperer balise ul bou si bir nav bi
+
+            toggler.addEventListener("click", () => { 
+                navMenu.classList.toggle("active"); //pour ajouter ou suprimer classe active si balise ul bi 
+            });
+        });
+    </script>
 </body>
 </html>
